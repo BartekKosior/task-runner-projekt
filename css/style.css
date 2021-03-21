@@ -1,8 +1,20 @@
+/*navigation*/
 .navigation {
-  background-color: yellow;
+  background-color: grey;
 }
 
+/*header*/
 .header img {
+  width: 100%;
+}
+
+/*services*/
+.services h1 {
+  margin: 0 auto;
   weight: 100%;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNBLHdCQUF3QjtBQ0N4Qjs7QURFQTtFQUNJLFlBQVk7QUNDaEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+/*services*/
+/*portfolio*/
+/*footer*/
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxhQUFBO0FBQ0E7RUFDQSxzQkFBcUI7QUNDckI7O0FERUEsU0FBQTtBQUNBO0VBQ0ksV0FBVztBQ0NmOztBREdBLFdBQUE7QUFDQTtFQUNJLGNBQWM7RUFDZCxZQUFZO0FDQWhCOztBRElBLFdBQUE7QUFJQSxZQUFBO0FBS0EsU0FBQSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
