@@ -1,14 +1,24 @@
+/*global*/
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 /*navigation*/
+
 .navigation {
-background-color:grey;
+    position: relative;
 }
 
 .navigation li {
@@ -19,23 +29,88 @@ background-color:grey;
 .navigation a {
     text-decoration: none;
     color: black;
-    
+    font-size: larger;
+    font-weight: bold;
 } 
 
+.navigation p {
 
-
-/*header*/
-.header img {
-    width: 100%;  
-    position: relative;
 }
 
+.ul {
+    margin-top:20px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.golden {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.golden p {
+    font-family: fantasy;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top:20px;
+}
+
+.list {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    vertical-align: center;
+}
 
 .title {
     position: absolute;
     text-align: center;
+    right: 15%;
+    left: 15%;
+    bottom: 50%;
 }
 
+.title h1 {
+    color: white;
+}
+
+.title p {
+    color: white;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title a {
+    color:blue;
+    font-size: 30px;
+}
+
+.nav {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 5px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    background-color: yellow;
+    padding: 16px;
+    
+
+}
 
 /*services*/
 .services h1 {
@@ -54,3 +129,11 @@ background-color:grey;
 
 
 /*footer*/
+
+
+
+/*media*/
+@media (min-width: 1200px){
+.container {
+    max-width: 1600px;
+}}
