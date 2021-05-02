@@ -21,7 +21,7 @@ body {
     position: relative;
 }
 
-.navigation li {
+.list li {
     list-style: none;
     padding-right: 20px;
 }
@@ -33,12 +33,8 @@ body {
     font-weight: bold;
 } 
 
-.navigation p {
-
-}
-
-.ul {
-    margin-top:20px;
+.list ul {
+    margin-top:25px;
 }
 
 .photo img {
@@ -57,6 +53,7 @@ body {
     font-size: 30px;
     margin-bottom: 0;
     margin-top:20px;
+    color: red;
 }
 
 .list {
@@ -108,24 +105,139 @@ body {
     border-style: solid;
     background-color: yellow;
     padding: 16px;
-    
-
 }
 
 /*services*/
-.services h1 {
-    margin: 0 auto;
-    weight: 100%;
+
+.services_a h2 {
+    font-weight: bold;
 }
 
+.services_a {
+    padding-bottom: 50px;
+}
 
-/*services*/
+.services p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
+.services h5 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+.e-commerce {
+    text-align: center;
+}
+
+.e-commerce i {
+    font-size: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    border: 5px solid;
+    border-color: orange;
+    color: orange;
+}
+
+.responsive_web {
+    text-align: center;
+}
+
+.responsive_web i {
+    font-size: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    border: 5px solid;
+    border-color: orange;
+    color: orange;
+}
+
+.web_security i {
+    font-size: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    border: 5px solid;
+    border-color: orange;
+    color: orange;
+}
+
+.web_security {
+    text-align: center;
+}
 
 /*portfolio*/
+.portfolio {
+    background:silver;
+}
+
+.our_portfolio {
+    padding-top:50px;
+}
+
+.our_portfolio p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.our_portfolio h3 {
+    text-align: center;
+    
+}
+
+.image img {
+    width: 370px;
+    height: 370px;
+    margin-left: 60px;
+    /*object-fit: cover*/
+}
+
+.image {
+    width: 100%;
+    height: 80%;
+}
+
+.body h3 {
+    margin-left: 60px;
+}
 
 
+.ebony {
+    
+    
+}
+
+.smart_stationary {
+    
+}
+
+.clever_poster {
+    
+}
+
+.vinyl_record {
+    
+}
+
+.treehouse_template{
+    
+}
+
+.burned_logo {
+   
+}
 
 
 /*footer*/
